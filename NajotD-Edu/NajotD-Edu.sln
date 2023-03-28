@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NajotD-Edu.Api", "NajotD-Edu.Api\NajotD-Edu.Api.csproj", "{6A264086-C870-4C34-AD05-D4E125090992}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Najotd-Edu.Domain", "Najotd-Edu.Domain\Najotd-Edu.Domain.csproj", "{068E82D2-39E5-46BF-AE7D-A2375B6004E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NajotD-Edu.Infrastructure", "NajotD-Edu.Infrastructure\NajotD-Edu.Infrastructure.csproj", "{954E3894-88E1-4185-9DAD-1465E5B96B92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{6A264086-C870-4C34-AD05-D4E125090992}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A264086-C870-4C34-AD05-D4E125090992}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A264086-C870-4C34-AD05-D4E125090992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{068E82D2-39E5-46BF-AE7D-A2375B6004E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068E82D2-39E5-46BF-AE7D-A2375B6004E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068E82D2-39E5-46BF-AE7D-A2375B6004E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068E82D2-39E5-46BF-AE7D-A2375B6004E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954E3894-88E1-4185-9DAD-1465E5B96B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954E3894-88E1-4185-9DAD-1465E5B96B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954E3894-88E1-4185-9DAD-1465E5B96B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954E3894-88E1-4185-9DAD-1465E5B96B92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
