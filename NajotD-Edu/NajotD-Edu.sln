@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NajotD-Edu.Api", "NajotD-Edu.Api\NajotD-Edu.Api.csproj", "{6A264086-C870-4C34-AD05-D4E125090992}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NajotD-Edu.Api", "NajotD-Edu.Api\NajotD-Edu.Api.csproj", "{6A264086-C870-4C34-AD05-D4E125090992}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Najotd-Edu.Domain", "Najotd-Edu.Domain\Najotd-Edu.Domain.csproj", "{068E82D2-39E5-46BF-AE7D-A2375B6004E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Najotd-Edu.Domain", "Najotd-Edu.Domain\Najotd-Edu.Domain.csproj", "{068E82D2-39E5-46BF-AE7D-A2375B6004E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NajotD-Edu.Infrastructure", "NajotD-Edu.Infrastructure\NajotD-Edu.Infrastructure.csproj", "{954E3894-88E1-4185-9DAD-1465E5B96B92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NajotD-Edu.Infrastructure", "NajotD-Edu.Infrastructure\NajotD-Edu.Infrastructure.csproj", "{954E3894-88E1-4185-9DAD-1465E5B96B92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Najotd-Edu.Application", "Najotd-Edu.Application\Najotd-Edu.Application.csproj", "{DB2B977B-E741-48FC-ADC6-9B4457FD23A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{954E3894-88E1-4185-9DAD-1465E5B96B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{954E3894-88E1-4185-9DAD-1465E5B96B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{954E3894-88E1-4185-9DAD-1465E5B96B92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB2B977B-E741-48FC-ADC6-9B4457FD23A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2B977B-E741-48FC-ADC6-9B4457FD23A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2B977B-E741-48FC-ADC6-9B4457FD23A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2B977B-E741-48FC-ADC6-9B4457FD23A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

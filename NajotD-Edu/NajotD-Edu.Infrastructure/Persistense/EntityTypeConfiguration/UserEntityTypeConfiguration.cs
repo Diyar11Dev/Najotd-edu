@@ -1,15 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Najotd_Edu.Domain.Entitys;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Najotd_Edu.Domain.Enums;
 
 namespace NajotD_Edu.Infrastructure.Persistense.EntityTypeConfiguration
 {
-    public class UserEntityTypeConfiguration : IEntityTypeConfiguration<User> 
+    public class UserEntityTypeConfiguration : IEntityTypeConfiguration<User>
     {
         void IEntityTypeConfiguration<User>.Configure(EntityTypeBuilder<User> builder)
         {
@@ -20,6 +16,15 @@ namespace NajotD_Edu.Infrastructure.Persistense.EntityTypeConfiguration
                 .IsRequired();
             builder.HasIndex(i => i.UserName)
                 .IsUnique();
+
+            builder.HasData(new User()
+            {
+                Id = 1,
+                UserName = "Admin",
+                PasswordHash = "5032E95A5DA27098273D49FFE608CA49C6A40EB756BDAE65431C6D1B5F8213B44963F2CD459B29704A8207CBE3A9CC8D35A6A1FC374078EF4FC08AC0BECD9DD7",
+                Role = UserRole.Admin,
+                FullName = "Diyor Qurbonboyev",
+            });
         }
     }
 }
