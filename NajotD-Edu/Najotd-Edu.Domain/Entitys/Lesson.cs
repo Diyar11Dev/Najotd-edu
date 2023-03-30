@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Najotd_Edu.Domain.Entitys
+﻿namespace Najotd_Edu.Domain.Entitys
 {
     public class Lesson
     {

@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace NajotD_Edu.Api.Controllers
@@ -17,7 +18,7 @@ namespace NajotD_Edu.Api.Controllers
         {
             _logger = logger;
         }
-
+        [Authorize(Policy = "AdminActions")]
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {

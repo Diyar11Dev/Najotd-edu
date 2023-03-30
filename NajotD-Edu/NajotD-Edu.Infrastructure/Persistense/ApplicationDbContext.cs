@@ -7,7 +7,7 @@ namespace NajotD_Edu.Infrastructure.Persistense
     public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            : base(options) {}
+            : base(options) { }
 
         public DbSet<User> Users { get; set; }
         public DbSet<StudentGroup> StudentGroups { get; set; }
